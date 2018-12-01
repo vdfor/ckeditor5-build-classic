@@ -28,7 +28,13 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
-export default class ClassicEditor extends ClassicEditorBase {}
+// custom by vdfor
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
+import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
+import TextColor from 'ckeditor-text-color-select/src/textcolor';
+
+export default class ClassicEditor extends ClassicEditorBase { }
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
@@ -52,27 +58,52 @@ ClassicEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableToolbar
+	TableToolbar,
+	// custom by vdfor
+	Underline,
+	Strikethrough,
+	FontSize,
+	TextColor
 ];
 
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
+		// custom by vdfor
 		items: [
-			'heading',
+			'undo',
+			'redo',
 			'|',
+			'heading',
+			'fontSize',
+			'textcolor',
 			'bold',
 			'italic',
+			'underline',
+			'strikethrough',
 			'link',
 			'bulletedList',
 			'numberedList',
-			'imageUpload',
-			'blockQuote',
-			'insertTable',
-			'mediaEmbed',
-			'undo',
-			'redo'
+			'imageUpload'
 		]
+		// items: [
+		// 	'heading',
+		// 	'|',
+		// 	'bold',
+		// 	'italic',
+		// 	'link',
+		// 	'bulletedList',
+		// 	'numberedList',
+		// 	'imageUpload',
+		// 	'blockQuote',
+		// 	'insertTable',
+		// 	'mediaEmbed',
+		// 	'undo',
+		// 	'redo'
+		// ]
+	},
+	fontSize: {
+		options: [12, 14, 16, 18, 20, 22, 24, 32, 48, 56]
 	},
 	image: {
 		toolbar: [
@@ -90,5 +121,6 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: 'zh-cn' // custom by vdfor
+	// language: 'en'
 };

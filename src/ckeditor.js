@@ -106,12 +106,14 @@ ClassicEditor.defaultConfig = {
 		options: [12, 14, 16, 18, 20, 22, 24, 32, 48, 56]
 	},
 	image: {
-		toolbar: [
-			'imageStyle:full',
-			'imageStyle:side',
-			'|',
-			'imageTextAlternative'
-		]
+		toolbar: ['imageTextAlternative'], // custom by vdfor
+		styles: ['full']
+		// toolbar: [
+		// 	'imageStyle:full',
+		// 	'imageStyle:side',
+		// 	'|',
+		// 	'imageTextAlternative'
+		// ]
 	},
 	table: {
 		contentToolbar: [

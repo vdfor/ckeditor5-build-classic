@@ -17,6 +17,15 @@
     "@ckeditor/ckeditor5-core" "^11.0.1"
     "@ckeditor/ckeditor5-upload" "^10.0.3"
 
+"@ckeditor/ckeditor5-alignment@^10.0.3":
+  version "10.0.3"
+  resolved "http://registry.npm.taobao.org/@ckeditor/ckeditor5-alignment/download/@ckeditor/ckeditor5-alignment-10.0.3.tgz#3a2f6bf4728e360241a5814c3d5ee4f2b38f2ab9"
+  integrity sha1-Oi9r9HKONgJBpYFMPV7k8rOPKrk=
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^11.0.1"
+    "@ckeditor/ckeditor5-engine" "^11.0.0"
+    "@ckeditor/ckeditor5-ui" "^11.1.0"
+
 "@ckeditor/ckeditor5-autoformat@^10.0.3":
   version "10.0.3"
   resolved "http://registry.npm.taobao.org/@ckeditor/ckeditor5-autoformat/download/@ckeditor/ckeditor5-autoformat-10.0.3.tgz#2877ed8b72b7cd3336a2a7a89a4f67c761d22990"

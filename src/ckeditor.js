@@ -106,7 +106,7 @@ ClassicEditor.defaultConfig = {
 		// ]
 	},
 	fontSize: {
-		options: [12, 14, 16, 18, 20, 22, 24, 32, 48, 56]
+		options: [12, 14, 16, 18, 20, 22, 24, 32]
 	},
 	image: {
 		toolbar: ['imageTextAlternative'], // custom by vdfor

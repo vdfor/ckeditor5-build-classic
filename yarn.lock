@@ -1006,9 +1006,10 @@ ckeditor-text-color-select@^0.0.2-2:
     "@ckeditor/ckeditor5-engine" "^10.2.0"
     "@ckeditor/ckeditor5-ui" "^11.0.0"
 
-"ckeditor5-line-height@https://github.com/vdfor/ckeditor5-line-height.git":
-  version "0.1.0"
-  resolved "https://github.com/vdfor/ckeditor5-line-height.git#e9584dd1152de73cfd190a9b85d793b61654a43e"
+ckeditor5-line-height@^0.2.0:
+  version "0.2.0"
+  resolved "http://registry.npm.taobao.org/ckeditor5-line-height/download/ckeditor5-line-height-0.2.0.tgz#59448369081759a6eac24c1dceda2dca6677a889"
+  integrity sha1-WUSDaQgXWabqwkwdztotymZ3qIk=
   dependencies:
     "@ckeditor/ckeditor5-core" "^11.0.1"
     "@ckeditor/ckeditor5-engine" "^11.0.0"

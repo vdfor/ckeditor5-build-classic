@@ -1,6 +1,6 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "11.2.0",
+  "name": "vdfor-ckeditor5-build-classic",
+  "version": "0.1.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -48,7 +48,7 @@
     "@ckeditor/ckeditor5-theme-lark": "^12.0.0",
     "@ckeditor/ckeditor5-upload": "^10.0.4",
     "ckeditor-text-color-select": "^0.0.2-2",
-    "ckeditor5-line-height": "https://github.com/vdfor/ckeditor5-line-height.git",
+    "ckeditor5-line-height": "^0.2.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^1.0.0",
     "style-loader": "^0.23.0",
@@ -63,10 +63,10 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com",
-  "bugs": "https://github.com/ckeditor/ckeditor5-build-classic/issues",
+  "bugs": "https://github.com/vdfor/ckeditor5-build-classic/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "https://github.com/vdfor/ckeditor5-build-classic.git"
   },
   "scripts": {
     "build": "webpack --mode production",

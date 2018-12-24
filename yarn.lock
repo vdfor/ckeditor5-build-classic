@@ -78,8 +78,8 @@
 
 "@ckeditor/ckeditor5-core@^11.0.0", "@ckeditor/ckeditor5-core@^11.0.1", "@ckeditor/ckeditor5-core@^11.1.0":
   version "11.1.0"
-  resolved "http://registry.npm.taobao.org/@ckeditor/ckeditor5-core/download/@ckeditor/ckeditor5-core-11.1.0.tgz#e2ff1e399a0024a2343c750f2796606196167f1a"
-  integrity sha1-4v8eOZoAJKI0PHUPJ5ZgYZYWfxo=
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-11.1.0.tgz#e2ff1e399a0024a2343c750f2796606196167f1a"
+  integrity sha512-iwSV1SUBITOxncuIVbGv/xFwkZ1Sd0Po/8CRn+p6r5mq91T73L6nMC+MUfT52W9Z/12DfjAz4hRMsabLqRbkIQ==
   dependencies:
     "@ckeditor/ckeditor5-engine" "^12.0.0"
     "@ckeditor/ckeditor5-utils" "^11.1.0"
@@ -147,16 +147,16 @@
 
 "@ckeditor/ckeditor5-engine@^11.0.0":
   version "11.0.0"
-  resolved "http://registry.npm.taobao.org/@ckeditor/ckeditor5-engine/download/@ckeditor/ckeditor5-engine-11.0.0.tgz#ca3b63d67de222c73388cca71cc007fda033547f"
-  integrity sha1-yjtj1n3iIscziMynHMAH/aAzVH8=
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-11.0.0.tgz#ca3b63d67de222c73388cca71cc007fda033547f"
+  integrity sha512-yH8mLUlrEqAVoFizFLJ0EA1w16d1d5D2Mh0drUkbOOg2iPEJotUjahoVWDy7YsqSuF3DXYJLVoGjBabdSHvPQg==
   dependencies:
     "@ckeditor/ckeditor5-utils" "^11.0.0"
     lodash-es "^4.17.10"
 
 "@ckeditor/ckeditor5-engine@^12.0.0":
   version "12.0.0"
-  resolved "http://registry.npm.taobao.org/@ckeditor/ckeditor5-engine/download/@ckeditor/ckeditor5-engine-12.0.0.tgz#89f6adeb36ad21841166af542ba2bb940e065307"
-  integrity sha1-ifat6zatIYQRZq9UK6K7lA4GUwc=
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-engine/-/ckeditor5-engine-12.0.0.tgz#89f6adeb36ad21841166af542ba2bb940e065307"
+  integrity sha512-tRgI4kyPq4UaS9eIZoeMhzNwOKqNV/HC6dAD5JZxghnPsuqAwGlOjGygGVCje7j8I3byTFgaxS5xWFwwnn3fqQ==
   dependencies:
     "@ckeditor/ckeditor5-utils" "^11.1.0"
     lodash-es "^4.17.10"
@@ -333,8 +333,8 @@
 
 "@ckeditor/ckeditor5-utils@^11.0.0", "@ckeditor/ckeditor5-utils@^11.1.0":
   version "11.1.0"
-  resolved "http://registry.npm.taobao.org/@ckeditor/ckeditor5-utils/download/@ckeditor/ckeditor5-utils-11.1.0.tgz#53535004ca9e2074fc0776b60a1706aa8af9a180"
-  integrity sha1-U1NQBMqeIHT8B3a2ChcGqor5oYA=
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-utils/-/ckeditor5-utils-11.1.0.tgz#53535004ca9e2074fc0776b60a1706aa8af9a180"
+  integrity sha512-QgjK5BHs2krdqv8OY7qR0SMEKePcLaBo+b26oh3vMuzdC0KckMytbngn+uIGRoGBiKiza5RwI51Wk4Y8zxKMxQ==
   dependencies:
     ckeditor5 "^11.2.0"
     lodash-es "^4.17.10"
@@ -1007,9 +1007,9 @@ ckeditor-text-color-select@^0.0.2-2:
     "@ckeditor/ckeditor5-ui" "^11.0.0"
 
 ckeditor5-line-height@^0.2.0:
-  version "0.2.0"
-  resolved "http://registry.npm.taobao.org/ckeditor5-line-height/download/ckeditor5-line-height-0.2.0.tgz#59448369081759a6eac24c1dceda2dca6677a889"
-  integrity sha1-WUSDaQgXWabqwkwdztotymZ3qIk=
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/ckeditor5-line-height/-/ckeditor5-line-height-0.2.1.tgz#574f52f28f0e506287c753ee7d74cfadee28983a"
+  integrity sha512-LjWKspiL1Aan38dycxLPR+ZMVcUMEbLHbYsz3q4E+L6U9DyfJyzCg7Gi1f5Kckp3wkHDQ9Z/KRGwFzG0ajeegw==
   dependencies:
     "@ckeditor/ckeditor5-core" "^11.0.1"
     "@ckeditor/ckeditor5-engine" "^11.0.0"
@@ -1018,8 +1018,8 @@ ckeditor5-line-height@^0.2.0:
 
 ckeditor5@^11.0.1, ckeditor5@^11.2.0:
   version "11.2.0"
-  resolved "http://registry.npm.taobao.org/ckeditor5/download/ckeditor5-11.2.0.tgz#480c6d65475b73772681877114da859c1c2b5cba"
-  integrity sha1-SAxtZUdbc3cmgYdxFNqFnBwrXLo=
+  resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-11.2.0.tgz#480c6d65475b73772681877114da859c1c2b5cba"
+  integrity sha512-hP6lxCj0bDGv/yhtdYxuASjZbho0zpVKu5x7rNHSjwcsIKeJleRf3TQCxECcG6Mhmuigf6gV4JZzOp+0zLz2rA==
 
 class-utils@^0.3.5:
   version "0.3.6"
@@ -2540,8 +2540,8 @@ locate-path@^3.0.0:
 
 lodash-es@^4.17.10:
   version "4.17.11"
-  resolved "http://registry.npm.taobao.org/lodash-es/download/lodash-es-4.17.11.tgz#145ab4a7ac5c5e52a3531fb4f310255a152b4be0"
-  integrity sha1-FFq0p6xcXlKjUx+08xAlWhUrS+A=
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.11.tgz#145ab4a7ac5c5e52a3531fb4f310255a152b4be0"
+  integrity sha512-DHb1ub+rMjjrxqlB3H56/6MXtm1lSksDp2rA2cNWjG8mlDUYFhUj3Di2Zn5IwSU87xLv8tNIQ7sSwE/YOX/D/Q==
 
 lodash.debounce@^4.0.8:
   version "4.0.8"

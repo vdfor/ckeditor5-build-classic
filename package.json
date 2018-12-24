@@ -48,6 +48,7 @@
     "@ckeditor/ckeditor5-theme-lark": "^11.1.0",
     "@ckeditor/ckeditor5-upload": "^10.0.3",
     "ckeditor-text-color-select": "^0.0.2-2",
+    "ckeditor5-line-height": "https://github.com/vdfor/ckeditor5-line-height.git",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.23.0",

@@ -32,6 +32,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
+import LineHeight from 'ckeditor5-line-height/src/lineheight';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import TextColor from 'ckeditor-text-color-select/src/textcolor';
 
@@ -65,6 +66,7 @@ ClassicEditor.builtinPlugins = [
 	Strikethrough,
 	FontSize,
 	TextColor,
+	LineHeight,
 	Alignment
 ];
 
@@ -78,6 +80,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'heading',
 			'fontSize',
+			'lineHeight',
 			'textcolor',
 			'bold',
 			'italic',

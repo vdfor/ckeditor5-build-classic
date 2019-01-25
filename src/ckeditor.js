@@ -109,7 +109,10 @@ ClassicEditor.defaultConfig = {
 		// ]
 	},
 	fontSize: {
-		options: [12, 14, 16, 18, 20, 22, 24, 32]
+		options: ['default', 12, 14, 16, 18, 20, 22, 24, 32]
+	},
+	lineHeight: { // custom by vdfor
+		options: ['default', 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5]
 	},
 	image: {
 		toolbar: ['imageStyle:full', 'imageStyle:alignLeft', 'imageStyle:alignRight'], // custom by vdfor

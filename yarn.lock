@@ -1006,10 +1006,10 @@ ckeditor-text-color-select@^0.0.2-2:
     "@ckeditor/ckeditor5-engine" "^10.2.0"
     "@ckeditor/ckeditor5-ui" "^11.0.0"
 
-ckeditor5-line-height@^0.2.0:
-  version "0.2.2"
-  resolved "http://registry.npm.taobao.org/ckeditor5-line-height/download/ckeditor5-line-height-0.2.2.tgz#382689b17b926fc5a1a3e77378b168a2e2707f09"
-  integrity sha1-OCaJsXuSb8Who+dzeLFoouJwfwk=
+ckeditor5-line-height@^0.3.0:
+  version "0.3.1"
+  resolved "http://registry.npm.taobao.org/ckeditor5-line-height/download/ckeditor5-line-height-0.3.1.tgz#94e7f95a1c01c32f0a6f2da31beb3f61f654fa38"
+  integrity sha1-lOf5WhwBwy8Kby2jG+s/YfZU+jg=
   dependencies:
     "@ckeditor/ckeditor5-core" "^11.0.1"
     "@ckeditor/ckeditor5-engine" "^11.0.0"
